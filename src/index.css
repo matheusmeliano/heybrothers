@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* { box-sizing: border-box; }
+html, body, #root { height: 100%; }
+
+.pb-8 {
+  padding-bottom: 3rem;
+}
+
+@media (max-width: 1023px) {
+  .py-20 {
+    padding-bottom: 2.5rem;
+  }
+}
+
+.max-w-md {
+  max-width: 30rem !important;
+}
+
+body {
+  padding-top: var(--hb-header-h, 0px);
+}
+
+.hb-site-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: 50;
+  background: #ffffff;
+  border-bottom: 0;
+}
+
+.hb-site-header.hb-header--scrolled {
+  border-bottom: 1px solid rgba(17, 24, 39, 0.08);
+}

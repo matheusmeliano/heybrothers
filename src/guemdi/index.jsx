@@ -47,12 +47,12 @@ export default function GuemdiPage() {
 
               <div className="mt-8 pt-6 border-t border-gray-100">
                 <a
-                  href="https://guemdi.com/"
+                  href="https://guemdi.vercel.app/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-[#34a853] hover:bg-[#2b8a44] text-white px-6 py-3 rounded-lg font-semibold transition-all"
                 >
-                  Acessar guemdi.com
+                  Acessar guemdi.vercel.app
                   <ExternalLink size={18} />
                 </a>
               </div>
@@ -66,7 +66,7 @@ export default function GuemdiPage() {
                 <div className="w-2.5 h-2.5 rounded-full bg-yellow-400"></div>
                 <div className="w-2.5 h-2.5 rounded-full bg-green-400"></div>
                 <div className="ml-3 bg-white px-3 py-0.5 rounded text-[10px] text-gray-400 font-mono flex items-center gap-1 border border-gray-100">
-                  <Globe size={10} /> guemdi.com
+                  <Globe size={10} /> guemdi.vercel.app
                 </div>
               </div>
               <div className="flex-1 p-6 sm:p-8 bg-gradient-to-br from-green-50/50 to-white flex flex-col relative">
@@ -150,7 +150,7 @@ export default function GuemdiPage() {
               
               <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
                 <a
-                  href="https://guemdi.com/"
+                  href="https://guemdi.vercel.app/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-[#34a853] hover:bg-[#2b8a44] text-white px-8 py-3 rounded-lg font-semibold transition-all"

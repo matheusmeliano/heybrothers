@@ -1,5 +1,5 @@
 import React, { useEffect, useState, useRef } from 'react'
-import { ArrowUpRight, Megaphone, Share2, PenTool, Home, Video, FileText, Camera, Palette, Package, BookOpen, Instagram, Facebook, Monitor, Search, Target, TrendingUp, Wallet, Link as LinkIcon, BarChart3, Zap, Sliders, Quote, ChevronDown } from 'lucide-react'
+import { ArrowUpRight, Megaphone, Share2, PenTool, Home, Video, FileText, Camera, Palette, Package, BookOpen, Instagram, Facebook, Github, Monitor, Search, Target, TrendingUp, Wallet, Link as LinkIcon, BarChart3, Zap, Sliders, Quote, ChevronDown } from 'lucide-react'
 import { BrowserRouter, Routes, Route, Link, useLocation } from 'react-router-dom'
 import VideoPage from './video'
 import SocialMediaPage from './social-media'
@@ -460,6 +460,15 @@ function Layout({ children }) {
               aria-label="Facebook"
             >
               <Facebook size={18} strokeWidth={1.75} />
+            </a>
+            <a
+              href="https://github.com/matheusmeliano"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center justify-center w-9 h-9 rounded-full border border-gray-200 hover:border-gray-300 bg-white text-gray-600 hover:text-black transition-all"
+              aria-label="GitHub"
+            >
+              <Github size={18} strokeWidth={1.75} />
             </a>
           </div>
         </div>
